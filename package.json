@@ -2,7 +2,7 @@
   "name": "totsuzen-text",
   "version": "0.0.1",
   "description": "Convert to '突然の死 like text'",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "debug": "ts-node src/debug.ts"
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "taqm",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/taqm/totsuzen-text/issues"
   },
