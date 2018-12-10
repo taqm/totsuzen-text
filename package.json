@@ -1,6 +1,6 @@
 {
   "name": "totsuzen-text",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert to '突然の死 like text'",
   "main": "lib/index.js",
   "scripts": {
