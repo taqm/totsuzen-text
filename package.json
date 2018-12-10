@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "debug": "ts-node debug.ts"
+    "debug": "ts-node src/debug.ts"
   },
   "repository": {
     "type": "git",

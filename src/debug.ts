@@ -1,5 +1,5 @@
-import totsuzen from './src';
-import totsuDec from './src/decorator';
+import totsuzen from '.';
+import totsuDec from './decorator';
 
 console.log(totsuzen('hello world'));
 console.log(totsuzen('hoge \n fuga!'));
