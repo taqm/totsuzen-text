@@ -4,7 +4,8 @@
   "description": "Convert to '突然の死 like text'",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "debug": "ts-node debug.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
     "url": "https://github.com/taqm/totsuzen-text/issues"
   },
   "devDependencies": {
+    "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.2.2"
