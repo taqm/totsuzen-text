@@ -1,12 +1,20 @@
 {
   "name": "totsuzen-text",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert to '突然の死 like text'",
   "main": "lib/index.js",
+  "bin": {
+    "totsuzen": "./bin/totsuzen",
+    "ttzn": "./bin/totsuzen"
+  },
   "scripts": {
     "build": "tsc",
     "debug": "ts-node src/debug.ts"
   },
+  "files": [
+    "lib",
+    "bin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taqm/totsuzen-text.git"
@@ -18,9 +26,11 @@
     "url": "https://github.com/taqm/totsuzen-text/issues"
   },
   "devDependencies": {
+    "@types/node": "^10.12.12",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.2.2"
-  }
+  },
+  "dependencies": {}
 }

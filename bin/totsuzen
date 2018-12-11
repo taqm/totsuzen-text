@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const ttzn = require('../lib/index.js').default;
+
+if (process.argv.length < 3) {
+  process.stderr.write('error: required text parameter');
+  process.exit(1);
+}
+
+console.log(ttzn(process.argv[2]));
