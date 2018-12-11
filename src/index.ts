@@ -8,7 +8,7 @@ function repeat(c: string, count: number): string {
   return ret;
 }
 
-export default function (text: string) {
+function convert(text: string) {
 
   const lines = text.split(/\r?\n/)
     .map((ln) => {
@@ -36,3 +36,6 @@ export default function (text: string) {
 
   return header + ret + footer;
 }
+
+module.exports = convert;
+export default convert;
